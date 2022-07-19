@@ -137,3 +137,12 @@ main .div2 section:nth-of-type(12) {
     background-image: url(media/images/789452.jpg);
 }
 
+media (max-width: 1024px ) {
+    main .div1{
+    display: none;
+    }   
+    
+    main .div2{
+    width:  100%;
+    }
+}
